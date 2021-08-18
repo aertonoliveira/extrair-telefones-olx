@@ -1,0 +1,31 @@
+{
+  "name": "olx",
+  "version": "0.0.3",
+  "homepage": "http://abru.pt",
+  "author": "Pedro Dias <petermdias@gmail.com>",
+  "maintainers": [
+    "apocas <petermdias@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/apocas/node-olx.git"
+  },
+  "description": "OLX.pt classifieds scraper",
+  "main": "./crawler",
+  "dependencies": {
+    "cheerio": "*",
+    "request": "*",
+    "twilio": "^3.67.0"
+  },
+  "devDependencies": {
+    "chai": "~1.7.0",
+    "mocha": "~1.12.0",
+    "memorystream": "~0.2.0"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -R spec"
+  },
+  "engines": {
+    "node": ">= 0.8"
+  }
+}
