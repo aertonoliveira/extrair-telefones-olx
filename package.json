@@ -1,14 +1,14 @@
 {
   "name": "olx",
   "version": "0.0.3",
-  "homepage": "http://abru.pt",
-  "author": "Pedro Dias <petermdias@gmail.com>",
+  "homepage": "http://www.aertonoliveira.com.br",
+  "author": "Aerton Oliveira <aertonoliveiradosreis@gmail.com>",
   "maintainers": [
-    "apocas <petermdias@gmail.com>"
+    "apocas <aertonoliveiradosreis@gmail.com>"
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/apocas/node-olx.git"
+    "url": "https://github.com/aertonoliveira/extrair-telefones-olx"
   },
   "description": "OLX.pt classifieds scraper",
   "main": "./crawler",
